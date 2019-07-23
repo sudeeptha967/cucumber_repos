@@ -1,0 +1,208 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "sigup verification",
+        "description": "",
+        "id": "sign-up-functionality;sigup-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25584197700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open home page",
+            "match": {
+              "location": "cucumber_testme.open_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 359842200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter the username",
+            "match": {
+              "location": "cucumber_testme.enter_the_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 286013300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter the firstName",
+            "match": {
+              "location": "cucumber_testme.enter_the_firstname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 213668800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter the lastname",
+            "match": {
+              "location": "cucumber_testme.enter_the_lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 282405600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter the password",
+            "match": {
+              "location": "cucumber_testme.enter_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 238563500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter the confirm password",
+            "match": {
+              "location": "cucumber_testme.enter_the_confirm_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185637400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter the gender",
+            "match": {
+              "location": "cucumber_testme.enter_the_gender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 323838700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter the email",
+            "match": {
+              "location": "cucumber_testme.enter_the_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 268992100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter the mobile no",
+            "match": {
+              "location": "cucumber_testme.enter_the_mobile_no()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 326513800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "enter\tthe date of birth",
+            "match": {
+              "location": "cucumber_testme.enter_the_date_of_birth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 349316500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "enter the address",
+            "match": {
+              "location": "cucumber_testme.enter_the_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115909200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "enter the security question",
+            "match": {
+              "location": "cucumber_testme.enter_the_security_question()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 362512700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "enter the answer",
+            "match": {
+              "location": "cucumber_testme.enter_the_answer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1171139400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click register",
+            "match": {
+              "location": "cucumber_testme.click_register()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43885100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "validate the page",
+            "match": {
+              "location": "cucumber_testme.validate_the_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "sign up functionality",
+    "description": "",
+    "id": "sign-up-functionality",
+    "keyword": "Feature",
+    "uri": "cucumber_testme_demo/feature1.feature",
+    "tags": []
+  }
+]
